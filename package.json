@@ -1,0 +1,21 @@
+{
+  "name": "ragemp_clientcore",
+  "version": "1.0.0",
+  "author": {
+    "name": "StiviK"
+  },
+  "description": "Client core for ragemp",
+  "scripts": {
+    "dev": "webpack --config ./build/webpack.config.dev.js",
+    "prod": "webpack --config ./build/webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#master",
+    "ts-loader": "^3.5.0",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^3.11.0"
+  }
+}
